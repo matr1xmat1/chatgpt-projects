@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowJs": true,
+    "noEmit": true,
+    "incremental": true
+  },
+  "include": ["next-env.d.ts", "app", "next.config.mjs"],
+  "exclude": ["node_modules"]
+}
